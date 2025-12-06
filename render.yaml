@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vless-render
+    env: node
+    plan: free
+    region: singapore
+    startCommand: node index.js
